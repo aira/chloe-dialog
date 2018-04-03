@@ -22,7 +22,7 @@ what can you do  , I can describe the visual world, read text, and even tell jok
 hey chloe        , "what would"
 hello *          , "Hello, how are you today?""
 hi *             , "Hi user!"
-hello|hi
+hello|hi|hey     , "Hello!"    
 ```
 
 #### Trigger Patterns
@@ -116,14 +116,16 @@ verbal triggers might be specified like
 
 Alternatively those keys could also be specified in natural language and be passed through our pattern matcher too to generate RMQ path patterns automatically. 
 
-## Plan
+
+## TODO
+
+- unicode-ascii transcoder
+- syntax checker and linting
+- graph visualization and linting
+- string interpolation templates (mustache)
+- hook a Chloe instance up to Slack
+- hook a Chloe instance up to TTS and STT (command line app)
 
 
-1. python interpreter of chloe language CSV (string->string matching)
-2. 
-- add globstar
-- add string interpolation (jinja2 or .format())
-- hook it up to slack
-- hook it up to TTS and STT
 
 
