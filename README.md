@@ -22,7 +22,9 @@ what can you do  , I can describe the visual world, read text, and even tell jok
 hey chloe        , "what would"
 hello *          , "Hello, how are you today?""
 hi *             , "Hi user!"
-hello|hi|hey     , "Hello!"    
+hello|hi|hey     , "Hello!"
+what time is it  , "{time_now}"
+what's the date  , "{date_now}"
 ```
 
 #### Trigger Patterns
