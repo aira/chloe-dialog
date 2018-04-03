@@ -16,11 +16,13 @@ The second column contains the corresponding response templates.
 Here's an example `chloe.csv`:
 
 ```text
-Hello *          , "Hello, how are you today?""
-Hi *             , "Hi user!"
 Stop             , OK.
-Who are you      , I'm Chloe, your virtual assistant.
-What can you do  , I can describe the visual world, read text, and even tell jokes.
+who are you      , I'm Chloe, your virtual assistant.
+what can you do  , I can describe the visual world, read text, and even tell jokes.
+hey chloe        , "what would"
+hello *          , "Hello, how are you today?""
+hi *             , "Hi user!"
+hello|hi
 ```
 
 #### Trigger Patterns
